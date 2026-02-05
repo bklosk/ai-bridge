@@ -1,5 +1,6 @@
 def main():
-    print("Hello from ai-bridge!")
+    print("Starting server...")
+    print("Server started")
 
 
 if __name__ == "__main__":
