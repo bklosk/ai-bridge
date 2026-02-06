@@ -2,8 +2,17 @@
 name = "ai-bridge"
 version = "0.1.0"
 description = "MCP server skeleton built with the Model Context Protocol Python SDK"
+license = "MIT"
 requires-python = ">=3.11"
 dependencies = [
     "mcp>=1.26.0",
     "psycopg[binary]>=3.2.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
